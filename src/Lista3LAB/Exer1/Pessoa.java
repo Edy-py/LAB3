@@ -1,4 +1,4 @@
-package Exer1;
+package Lista3LAB.Exer1;
 
 public class Pessoa {
     private String nome, cidade;

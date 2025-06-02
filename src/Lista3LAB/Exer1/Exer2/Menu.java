@@ -1,6 +1,6 @@
-package Exer2;
+package Lista3LAB.Exer1.Exer2;
 
-import Funcoes.EntradaUsuario;
+import Lista3LAB.Exer1.Funcoes.EntradaUsuario;
 
 public class Menu {
     public void menu() {

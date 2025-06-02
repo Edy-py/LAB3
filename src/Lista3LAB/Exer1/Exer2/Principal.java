@@ -1,7 +1,6 @@
-package Exer2;
+package Lista3LAB.Exer1.Exer2;
 
-import Funcoes.Cabessalho;
-import Funcoes.EntradaUsuario;
+import Lista3LAB.Exer1.Funcoes.Cabessalho;
 
 public class Principal {
     public static void main(String[] args) {

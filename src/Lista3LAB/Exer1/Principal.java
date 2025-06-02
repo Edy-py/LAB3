@@ -1,12 +1,12 @@
-package Exer1;
+package Lista3LAB.Exer1;
 
-import Funcoes.Cabessalho;
-import Funcoes.EntradaUsuario;
+import Lista3LAB.Exer1.Funcoes.Cabessalho;
+import Lista3LAB.Exer1.Funcoes.EntradaUsuario;
 
 public class Principal {
     public static void main(String[] args) {
 
-        Cabessalho cabessalho = new Cabessalho("LAB3","30/05/2025","Lista 3 - Exer1","Liliane");
+        Cabessalho cabessalho = new Cabessalho("LAB3","30/05/2025","Lista 3 - Lista3LAB.Exer1","Liliane");
         cabessalho.imprimir();
 
         EntradaUsuario entradaNome = new EntradaUsuario("Digite seu nome: \n");

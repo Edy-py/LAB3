@@ -1,7 +1,6 @@
-package Funcoes;
+package Lista3LAB.Exer1.Funcoes;
 
 import java.util.Scanner;
-import java.text.DecimalFormat;
 
 public class EntradaUsuario {
     public Scanner sc = new Scanner(System.in);

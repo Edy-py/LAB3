@@ -1,4 +1,4 @@
-package Exer3;
+package Lista3LAB.Exer1.Exer3;
 
 public class Automovel {
 
