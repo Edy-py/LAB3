@@ -1,10 +1,15 @@
-package Lista3LAB.Exer1.Exer2;
+package Lista3_lab3.Exer2;
 
-import Lista3LAB.Exer1.Funcoes.EntradaUsuario;
+
+import Lista1_lab3.Funcoes.EntradaUsuario;
+import Lista3_lab3.Funcoes.Cabessalho;
 
 public class Menu {
     public void menu() {
         int opcao;
+
+        Cabessalho cabessalho = new Cabessalho("Laboratório de Programação 3","02/06/2025","Atividade em sala","Liliane");
+        cabessalho.imprimir();
 
         EntradaUsuario entradaSaldo = new EntradaUsuario("Digite o valor do deposito: R$ ");
         EntradaUsuario entradaSaldo2 = new EntradaUsuario("Digite o valor do saque: R$ ");

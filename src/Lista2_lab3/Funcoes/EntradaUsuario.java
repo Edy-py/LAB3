@@ -1,6 +1,7 @@
-package Lista3LAB.Exer1.Funcoes;
+package Lista2_lab3.Funcoes;
 
 import java.util.Scanner;
+import java.text.DecimalFormat;
 
 public class EntradaUsuario {
     public Scanner sc = new Scanner(System.in);
@@ -37,11 +38,6 @@ public class EntradaUsuario {
     public double lerDouble(){
         System.out.print(texto);
         return sc.nextDouble();
-    }
-
-    public String lerString(){
-        System.out.print(texto);
-        return sc.nextLine();
     }
 
     public double FormatarNumero(double num){
