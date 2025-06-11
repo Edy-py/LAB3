@@ -1,4 +1,4 @@
-package Lista2_lab3.Funcoes;
+package Lista3_lab3.Exer2.Funcoes;
 
 import java.util.Scanner;
 
@@ -40,7 +40,7 @@ public class EntradaUsuario {
     }
 
     public String lerString(){
-        System.out.print(texto);
+        System.out.println(texto);
         return sc.nextLine();
     }
 

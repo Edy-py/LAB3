@@ -1,4 +1,4 @@
-package Lista2_lab3;
+package ExerEmSala_lab3;
 
 
 public class Soma {

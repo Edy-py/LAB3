@@ -1,4 +1,4 @@
-package Lista3_lab3.Exer2;
+package Lista2_lab3.Exer2;
 
 public class ContaBancaria {
     private double saldo = 0;

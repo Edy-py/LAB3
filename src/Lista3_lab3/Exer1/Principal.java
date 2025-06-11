@@ -1,30 +1,46 @@
 package Lista3_lab3.Exer1;
 
 
-import Lista3_lab3.Funcoes.Cabessalho;
-import Lista3_lab3.Funcoes.EntradaUsuario;
+import Lista3_lab3.Exer1.Funcoes.Cabessalho;
 
 public class Principal {
     public static void main(String[] args) {
 
-        Cabessalho cabessalho = new Cabessalho("LAB3","30/05/2025","Lista 3 - Lista3LAB.Exer1","Liliane");
+        Cabessalho cabessalho = new Cabessalho("Programação Orientada a Objetos", "07/06/2025", "Lista 2 - POO","Márcio Dias");
         cabessalho.imprimir();
 
-        EntradaUsuario entradaNome = new EntradaUsuario("Digite seu nome: \n");
-        EntradaUsuario entradaIdade = new EntradaUsuario("Digite sua idade: ");
-        EntradaUsuario entradaCidade = new EntradaUsuario("Digite sua cidade:\n ");
-        Pessoa pessoa = new Pessoa();
+        // super class Animal
 
-        pessoa.setNome(entradaNome.lerString());
-        pessoa.setIdade(entradaIdade.lerInt());
-        pessoa.VerificaIdade();
-        pessoa.setCidade(entradaCidade.lerString());
+        // class Cachorro
+        Cachorro cachorro = new Cachorro();
+        cachorro.setNome("Totó");
+        cachorro.setRaca("Pastor Alemão");
+
+        //class Gato
+        Gato gato = new Gato();
+        gato.setNome("Sebastião");
+        gato.setRaca("Siamês");
 
         System.out.println();
 
-        System.out.println("Nome: "+pessoa.getNome());
-        System.out.println("Idade: "+pessoa.getIdade());
-        System.out.println("Cidade: "+pessoa.getCidade());
+        // Teste dos métodos
+            // class Cachorro
+        cachorro.FazerBarulho();
+        System.out.println(cachorro.caminha());
+
+        System.out.println();
+
+            // class gato
+        gato.FazerBarulho();
+        System.out.println(gato.caminha());
+
+
+        System.out.println();
+        System.out.println();
+
+        // super class Pessoa
+
+        // class Pobre
 
     }
 

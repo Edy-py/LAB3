@@ -1,4 +1,4 @@
-package Lista3_lab3.Funcoes;
+package Lista3_lab3.Exer1.Funcoes;
 
 public class Cabessalho {
 

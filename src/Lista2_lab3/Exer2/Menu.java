@@ -1,8 +1,9 @@
-package Lista3_lab3.Exer2;
+package Lista2_lab3.Exer2;
 
 
 import Lista1_lab3.Funcoes.EntradaUsuario;
-import Lista3_lab3.Funcoes.Cabessalho;
+import Lista3_lab3.Exer1.Funcoes.Cabessalho;
+
 
 public class Menu {
     public void menu() {

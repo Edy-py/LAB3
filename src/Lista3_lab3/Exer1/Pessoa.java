@@ -1,34 +1,25 @@
 package Lista3_lab3.Exer1;
 
 public class Pessoa {
-    private String nome, cidade;
+    private String nome;
     private int idade;
 
-    public String getNome() {
-        return nome;
+    public Pessoa(){
+        this.nome = "";
+        this.idade = 0;
     }
-    public void setNome(String nome) {
+
+    public void setNome(String nome){
         this.nome = nome;
     }
-    public String getCidade() {
-        return cidade;
+    public String getNome(){
+        return this.nome;
     }
-    public void setCidade(String cidade) {
-        this.cidade = cidade;
-    }
-    public int getIdade() {
-        return idade;
-    }
-    public void setIdade(int idade) {
+    public void setIdade(int idade){
         this.idade = idade;
     }
-    public void VerificaIdade() {
-        if (this.idade >= 0)
-            return;
-        else{
-            System.out.println("Idade invalida! ");
-            System.exit(0);
-        }
-
+    public int getIdade(){
+        return this.idade;
     }
+
 }
